@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="domFundametals.js"></script>
+    <style>
+        .btn {
+            background: royalblue;
+            font-size: 32px;
+            border-radius: 8px;
+            color: white;
+            border: 0px;
+            padding: 10px;
+
+
+
+        }
+
+        #img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;  align-items: center; height: 100vh;">
+        <div>
+            <img id="img" src="https://picsum.photos/id/1/800/400">
+
+        </div>
+        <div style="margin: 10px;">
+            <div style="margin: 10px;">
+                <button class="btn" id="btn1" onclick="leftfun()">Move Left</button>
+                <button class="btn" id="btn2" onclick="rightfun()">Move Right</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
