@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ 
+     <title>layoutpractice</title>
+</head>
+<script src="layout.js"></script>
+<body>
+    <div class="container-fluid">
+
+        <!---------navbar------------------>
+        <div class="row bg-dark align-items-center sticky-top" style="height: 60px; ">
+            <div class="col-6  text-danger">MAHESH</div>
+            <div class="col-6 d-flex justify-content-end text-light"> LOGOUT</div>
+        </div>
+
+
+        <!-------------BODY----------------------------------------->
+        <div class="row justify-content-center">
+            <div class="col-12  col-md-6 d-flex flex-column ">
+                <!----------------------------content row------------------------->
+                <div class="row border ">
+                    <div class="col-12 p-0 d-flex justify-content-center align-items-center" style="height: 200px;">
+                        <img src="https://picsum.photos/500/200" style="height: 100%; width: 100%; object-fit: cover;" alt=""  >
+                    </div>
+                </div>
+                <!--------------------------------button row------------------------>
+                <div class="row" >
+                    <div class="col-3 p-0">
+                        <button class="btn btn-outline-secondary btn-block" onclick="like(this)">LIKE <span>0</span></button>
+                    </div>
+                    <div class="col-6 p-0">
+                        <input  id="inp" type="text " class="form-control" placeholder="Add Comment Here">
+                    </div>
+                    <div class="col-3 p-0">
+                        <button class="btn btn-outline-secondary btn-block" onclick="Comment()"> COMMENT</button>
+                    </div>
+                </div>
+
+                <!----------------------------------COMMENT ROW----------------------->
+                <div class="d-flex flex-column">
+                   <div class="row mt-1" id="Commentdiv">
+                       
+                    <div id="placecomment" class="col-10 p-0">Looking nice!!!</div>
+                    <div class="col-2 p-0">
+                        <button class="btn" onclick="delete(this)">DELETE</button>
+                    </div>
+                   </div>
+                   <div class="row mt-1">
+                    <div class="col-10 p-0">Beautifull design...</div>
+                    <div class="col-2 p-0">
+                        <button class="btn" onclick="delete(this)">DELETE</button>
+                    </div>
+                   </div>
+
+                </div>
+            </div>
+        
+        
+        </div>
+    </div>
+</body>
+</html>
