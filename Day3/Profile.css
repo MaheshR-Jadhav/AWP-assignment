@@ -1,0 +1,168 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h6,
+h5,
+p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+h3 {
+    color: royalblue;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#footer-title {
+    color: darkblue;
+}
+
+.footer-value {
+    color: white;
+}
+
+.maindiv {
+
+    margin: 20px 150px 20px 150px;
+    line-height: 2;
+
+}
+
+.innermaindiv {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background: 40514e;
+}
+
+/*----------------------div1 styling ----------------------------------------------------------------------*/
+
+
+.div1 {
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.div1inner1 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1inneri-img {
+    border-radius: 50%;
+    height: 180px;
+}
+
+.div1inner2 {
+    background: linear-gradient(skyblue, royalblue);
+    flex: 1.5;
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 50px;
+}
+
+.div1inner2-1 {
+    font-size: 48px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+.div1inner2-2 {
+    font-size: 24px;
+    padding-left: 20px;
+    color: white;
+}
+
+/*--------------Div2 Styling ----------------------------------------------------------------------*/
+.div2 {
+    background: lightskyblue;
+    display: flex;
+    padding: 10px;
+}
+
+.div2inner1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 17px;
+    border-top: 2px solid black;
+}
+
+.div2inner1-1 {
+    line-height: 0;
+    padding-left: 50px;
+}
+
+.div2inner2 {
+    flex: 1.5;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.div2inner2-1 {
+    line-height: 0;
+    padding-left: 50px;
+}
+
+.div2inner2-2 {
+    line-height: 0;
+    padding-left: 50px;
+    line-break: auto;
+}
+
+
+/*-------------Div3 Styling --------------------------------------------------------------------*/
+.div3 {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.div3inner {
+    background: royalblue;
+    flex: 2.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.div3inner1 {
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+}
+
+.div3inner2 {
+    flex: 1.5;
+    height: 100%;
+    border-left: 2px solid black;
+}
+
+.div3inner3 {
+    line-height: 0;
+    padding-left: 40px;
+}

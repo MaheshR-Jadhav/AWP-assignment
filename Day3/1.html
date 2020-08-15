@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Oracle</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .outerdiv {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img-1 {
+            background: royalblue;
+            color: white;
+            flex: 1;
+            background: url("https://picsum.photos/id/1002/1200/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img-2 {
+            background: green;
+            color: white;
+            flex: 1;
+            background: url("https://picsum.photos/id/1022/1200/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .img-3 {
+            background: olive;
+            color: white;
+            flex: 1;
+            background: url("https://picsum.photos/id/1075/1200/1200");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outerdiv">
+        <div style="background: #161513;flex: 1; display: flex;  align-items: center; font-size: 16px;">
+            <div style="flex: 2; margin: 20px; font-size: 24px; color: red; ">ORACLE</div>
+            <div
+                style="color: white;flex: 1; display: flex;justify-content: space-between; align-items: center; margin: 20px;">
+
+                <div>Products</div>
+                <div>Resource</div>
+                <div>Support</div>
+            </div>
+            <div style="flex: 1;display: flex; justify-content: flex-end;align-items: flex-end;">
+                <div style="color: white;  margin: 20px;">
+                    View Account
+                </div>
+            </div>
+        </div>
+
+        <div style="flex: 12;background: olive; display: flex;">
+            <div class="img-1"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+                <div style="justify-content: start;">
+                    <div style="font-size: 24px;">
+                        <h4 style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">Oracle Cloud</h4>
+                        <h2><b>Infrastructure</b></h2>
+                    </div>
+                    <div>Low data networking fees and automated migration</div>
+                </div>
+            </div>
+            <div class="img-2"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+                <div style="justify-content: start;">
+                    <div style="font-size: 24px;">
+                        <h4 style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">Cloud</h4>
+                        <h2><b>Applications</b></h2>
+                    </div>
+                    <div>Comlete suite of integrated apps</div>
+                </div>
+            </div>
+            <div class="img-3"
+                style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+
+                <div style="justify-content: start;">
+                    <div style="font-size: 24px;">
+                        <h4 style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter;">About </h4>
+                        <h2><b>Oracle</b></h2>
+                    </div>
+                    <div>Unlock endless possibilities</div>
+                    <div>
+                        <button type="button" style="background: white; color: black; border-radius: 8px;">Our
+                            mission</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
